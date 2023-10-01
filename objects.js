@@ -1,0 +1,12 @@
+var names;
+names = { name1: "mizan" };
+console.log(names);
+var users;
+users = [];
+var users1;
+users1 = { name: 'mizan', id: 123, email: 'mr@gmail.com' };
+users.push(users1);
+var users2;
+users2 = { name: 'rahman', id: 234, email: 'm@com' };
+users.push(users2);
+console.log(users);
