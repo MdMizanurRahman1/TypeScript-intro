@@ -24,3 +24,7 @@ createUser(newUser);
 function createCourse() {
     return { name: 'mizan', price: 234 };
 }
+function cUser(user) {
+    return { name: 'mizan', email: 'mr@gmail.com', isActive: true };
+}
+cUser({ name: 'mizan', email: 'mr@gmail.com', isActive: true });

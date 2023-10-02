@@ -35,4 +35,19 @@ function createCourse(): { name: string, price: number } {
 
 }
 
+type User = {
+    name: string;
+    email: string;
+    isActive: boolean
+}
+
+function cUser(user: User): User {
+    return { name: 'mizan', email: 'mr@gmail.com', isActive: true }
+}
+
+cUser({ name: 'mizan', email: 'mr@gmail.com', isActive: true })
+
+
+
+
 export { }
