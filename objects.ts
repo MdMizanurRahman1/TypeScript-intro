@@ -17,3 +17,22 @@ users.push(users2)
 
 
 console.log(users);
+
+
+function createUser2({ name1: string, email: number }) { }
+
+createUser2({ name1: 'mizan', email: 123 })
+
+
+
+function createUser({ name: string, isPaid: boolean }) { }
+
+let newUser = { name: "hitesh", isPaid: false }
+createUser(newUser)
+
+function createCourse(): { name: string, price: number } {
+    return { name: 'mizan', price: 234 }
+
+}
+
+export { }
