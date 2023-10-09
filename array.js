@@ -1,0 +1,13 @@
+var myArray = [];
+myArray.push(3);
+// console.log(myArray);
+var yourArray = ['rohima', 'bala', 'karima'];
+yourArray.push('momina');
+console.log(yourArray);
+yourArray.unshift('error');
+console.log(yourArray);
+var loveArray = [];
+loveArray.push(5);
+var yurVariable = [];
+yurVariable.push({ name: 'mizan', email: 'mr@gmail.com', id: 2, isActive: true });
+console.log(yurVariable);
