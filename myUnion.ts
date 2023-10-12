@@ -3,7 +3,7 @@ heros = '4'
 
 console.log(heros);
 
-type User = {
+type User1 = {
     name: string;
     id: number
 }
@@ -13,7 +13,7 @@ type Admin = {
     id: number
 }
 
-let myUser: User | Admin = { name: 'Mizan', id: 23 };
+let myUser: User1 | Admin = { name: 'Mizan', id: 23 };
 
 myUser = { userName: 'Piano', id: 234 }
 
