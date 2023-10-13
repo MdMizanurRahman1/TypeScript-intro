@@ -4,3 +4,7 @@ var mizan = {
         return 'Coding is typical';
     }
 };
+function multiply(a, b) {
+    return a * b;
+}
+console.log(multiply(20, 30));

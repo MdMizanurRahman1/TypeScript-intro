@@ -12,3 +12,11 @@ const mizan: User = {
         return 'Coding is typical'
     }
 }
+
+
+
+function multiply(a: number, b: number) {
+    return a * b;
+}
+
+console.log(multiply(20, 30));
