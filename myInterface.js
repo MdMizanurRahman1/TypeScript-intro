@@ -18,3 +18,14 @@ var User2 = /** @class */ (function () {
 }());
 var person = new User2('mr@gmail.com', 'mrmri');
 console.log(person.name);
+var Person = /** @class */ (function () {
+    function Person(name) {
+        this.name = name;
+    }
+    Person.prototype.getName = function () {
+        return this.name;
+    };
+    return Person;
+}());
+var person1 = new Person("Jane Bey");
+console.log(person1.getName());

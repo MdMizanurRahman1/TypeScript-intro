@@ -34,3 +34,19 @@ class User2 {
 }
 const person = new User2('mr@gmail.com', 'mrmri')
 console.log(person.name);
+
+
+class Person {
+    private name: string;
+
+    public constructor(name: string) {
+        this.name = name;
+    }
+
+    public getName(): string {
+        return this.name;
+    }
+}
+
+const person1 = new Person("Jane Bey");
+console.log(person1.getName());
