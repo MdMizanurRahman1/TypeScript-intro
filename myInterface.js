@@ -29,3 +29,6 @@ var Person = /** @class */ (function () {
 }());
 var person1 = new Person("Jane Bey");
 console.log(person1.getName());
+function add(a, b, c) {
+    return a + b + (c || 0);
+}

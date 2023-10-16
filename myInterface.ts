@@ -50,3 +50,9 @@ class Person {
 
 const person1 = new Person("Jane Bey");
 console.log(person1.getName());
+
+
+
+function add(a: number, b: number, c?: number) {
+    return a + b + (c || 0);
+}
