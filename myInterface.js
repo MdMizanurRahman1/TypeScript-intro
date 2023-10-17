@@ -32,3 +32,7 @@ console.log(person1.getName());
 function add(a, b, c) {
     return a + b + (c || 0);
 }
+var rectangle = {
+    height: 20,
+    width: 10
+};
