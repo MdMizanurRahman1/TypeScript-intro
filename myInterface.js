@@ -36,3 +36,11 @@ var rectangle = {
     height: 20,
     width: 10
 };
+var CarDirections;
+(function (CarDirections) {
+    CarDirections[CarDirections["Northst"] = 0] = "Northst";
+    CarDirections[CarDirections["Eastst"] = 1] = "Eastst";
+    CarDirections[CarDirections["Southst"] = 2] = "Southst";
+    CarDirections[CarDirections["Westst"] = 3] = "Westst";
+})(CarDirections || (CarDirections = {}));
+var currentDirection = CarDirections.Northst;

@@ -67,3 +67,11 @@ const rectangle: Rectangle = {
     height: 20,
     width: 10
 };
+
+enum CarDirections {
+    Northst,
+    Eastst,
+    Southst,
+    Westst
+}
+let currentDirection = CarDirections.Northst;
