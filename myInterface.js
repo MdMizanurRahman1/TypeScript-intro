@@ -44,3 +44,8 @@ var CarDirections;
     CarDirections[CarDirections["Westst"] = 3] = "Westst";
 })(CarDirections || (CarDirections = {}));
 var currentDirection = CarDirections.Northst;
+var car = {
+    type: "Toyota Yaris",
+    model: "Corolla",
+    year: 2019
+};

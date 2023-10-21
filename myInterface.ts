@@ -75,3 +75,10 @@ enum CarDirections {
     Westst
 }
 let currentDirection = CarDirections.Northst;
+
+
+const car: { type: string, model: string, year: number } = {
+    type: "Toyota Yaris",
+    model: "Corolla",
+    year: 2019
+};
