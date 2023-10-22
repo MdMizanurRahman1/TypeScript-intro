@@ -82,3 +82,8 @@ const car: { type: string, model: string, year: number } = {
     model: "Corolla",
     year: 2019
 };
+
+let ourTuple: [number, boolean, string];
+
+
+ourTuple = [59, true, 'Coding is here'];

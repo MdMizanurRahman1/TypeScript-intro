@@ -49,3 +49,5 @@ var car = {
     model: "Corolla",
     year: 2019
 };
+var ourTuple;
+ourTuple = [59, true, 'Coding is here'];
