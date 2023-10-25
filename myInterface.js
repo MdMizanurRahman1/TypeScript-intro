@@ -51,3 +51,5 @@ var car = {
 };
 var ourTuple;
 ourTuple = [59, true, 'Coding is here'];
+var names = ["Dylan Baayton"];
+// names.push("Jack");

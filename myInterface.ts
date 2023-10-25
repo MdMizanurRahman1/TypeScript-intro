@@ -87,3 +87,7 @@ let ourTuple: [number, boolean, string];
 
 
 ourTuple = [59, true, 'Coding is here'];
+
+
+const names: readonly string[] = ["Dylan Baayton"];
+// names.push("Jack");
