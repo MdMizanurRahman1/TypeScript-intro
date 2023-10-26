@@ -91,3 +91,6 @@ ourTuple = [59, true, 'Coding is here'];
 
 const names: readonly string[] = ["Dylan Baayton"];
 // names.push("Jack");
+
+const names2: string[] = [];
+names2.push("Dylan");
