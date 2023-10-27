@@ -94,3 +94,11 @@ const names: readonly string[] = ["Dylan Baayton"];
 
 const names2: string[] = [];
 names2.push("Dylan");
+
+
+let ourTup: [number, boolean, string];
+
+ourTup = [765, false, 'Coding God was not okay here'];
+
+ourTup.push('Something new and wrong is happening');
+console.log(ourTuple);

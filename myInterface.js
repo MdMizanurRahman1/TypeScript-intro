@@ -55,3 +55,7 @@ var names = ["Dylan Baayton"];
 // names.push("Jack");
 var names2 = [];
 names2.push("Dylan");
+var ourTup;
+ourTup = [765, false, 'Coding God was not okay here'];
+ourTup.push('Something new and wrong is happening');
+console.log(ourTuple);
