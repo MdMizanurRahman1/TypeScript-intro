@@ -102,3 +102,7 @@ ourTup = [765, false, 'Coding God was not okay here'];
 
 ourTup.push('Something new and wrong is happening');
 console.log(ourTuple);
+
+type WrappedNum<T> = { value: T };
+
+const wrappedValue: WrappedNum<number> = { value: 130 };

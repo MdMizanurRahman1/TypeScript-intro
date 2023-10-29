@@ -59,3 +59,4 @@ var ourTup;
 ourTup = [765, false, 'Coding God was not okay here'];
 ourTup.push('Something new and wrong is happening');
 console.log(ourTuple);
+var wrappedValue = { value: 130 };
