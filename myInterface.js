@@ -60,3 +60,10 @@ ourTup = [765, false, 'Coding God was not okay here'];
 ourTup.push('Something new and wrong is happening');
 console.log(ourTuple);
 var wrappedValue = { value: 130 };
+var Person3 = /** @class */ (function () {
+    function Person3() {
+    }
+    return Person3;
+}());
+var person5 = new Person3();
+person5.name = "Jane Valterri";

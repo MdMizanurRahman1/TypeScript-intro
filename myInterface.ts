@@ -106,3 +106,11 @@ console.log(ourTuple);
 type WrappedNum<T> = { value: T };
 
 const wrappedValue: WrappedNum<number> = { value: 130 };
+
+
+class Person3 {
+    name: string;
+}
+
+const person5 = new Person3();
+person5.name = "Jane Valterri";
